@@ -1,0 +1,92 @@
+.container{
+    background-image: linear-gradient(to bottom right, #ebeeef, #F2EFEF);
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    height: -webkit-fill-available;
+    margin: 0px -8px 0px -8px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container-vertical{
+    flex-direction: column;
+}
+
+.flex-item{
+    flex: 1;
+}
+
+.login-form{
+    width:35%;
+    height:70vh;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.form-header{
+    display: block;
+    height:20%;
+    background-color: #5C5C5C;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #F9F9F9;
+    text-align: center;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+.form-body{
+    text-align: left;
+    padding-left: 48px;
+    padding-top: 20px;
+}
+
+input[type=text], input[type=password]{
+    height:32px;
+    width:80%;
+    font-size:15px;
+    margin-top: 12px;
+    border: none;
+    border-bottom: 1px solid #ABA8A8;
+    outline: none;
+    background: transparent;
+    padding-left:4px;
+    color: #555555
+}
+
+.roles{
+    margin-top:16px;
+    font-size: 14px;
+}
+
+input[type=radio]{
+    margin:0;
+}
+
+input[type=submit]{
+    margin-top:32px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius:.25rem;
+    height:42px;
+    width:120px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #0568d3;
+} 
+
+.error-msg{
+    color: #DC040E;
+    font-size:15px;
+}
+
+.success-msg{
+    color: green;
+    font-size:15px;
+}
